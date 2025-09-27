@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section1{
+   background-image: url(images/Object.png);
+   background-repeat: no-repeat;
+   background-size: contain;      /* Show the whole image */
+   background-position: center;
+   background-size: cover;
+   
+   margin: 0;
+   padding: 0;
+
+}
+h1, p{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.first_section{
+    margin-top: 180px;
+}
+.get_schooled{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.get_schooled button{
+    background-color: rgb(160, 102, 218);
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    font-size: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.get_schooled h1{
+    font-size: 100px;
+    margin-bottom: 10px;
+    
+}
+.get_schooled span{
+    
+    margin: 5px 0;
+}
+
+
+.get_schooled_span{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Convert text to uppercase */
+    align-items: center;
+}
+
+.get_schooled_span span{
+    
+}
+
+.learn_from_pros{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.learn_from_pros_cards{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 20px;
+}
+
+.learn_from_pros_cards>div:nth-child(3) img{
+    border-radius: 50%;
+    
+}
+
+.section2{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(160, 102, 218);
+    height: 50vh;
+    line-height: 1.5;
+    
+    
+}
+
+.section2 div{
+    margin-top: 100px;
+    
+    
+}
+.section2 > div:nth-child(1){
+    margin-left: 200px;
+    
+    
+}
+
+
+.section3{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap:60px;
+    line-height: 1.5;
+}
+
+.section3 h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.video_section{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.massey{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.stars_section{
+    display: flex;
+    gap: 100px;
+    
+    
+}
+
+.stars{
+    display: flex;
+    gap: 5px;
+    
+    color: rgb(162, 0, 255);
+}
+
+.video-thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.video-thumbnail img {
+    display: block;
+}
+
+.video-thumbnail .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Optional: adjust size */
+    width: 60px;
+    height: 60px;
+    pointer-events: none; /* So clicks pass through to the thumbnail */
+}
+
+.bottom_img{
+    height: 40px;
+    width: 40px;
+}
+
+.section4{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    height: 70vh;
+    
+}
+
+.section4 h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lorem_ipsum{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lorem_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.section4 button{
+    background-color: rgb(160, 102, 218);
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    font-size: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: black;
+    background-color: white;
+    height: 100vh;
+    
+}
+
+.section5 h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.work-section{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.work_row{
+    display: flex;
+    gap: 100px;
+}
+
+footer{
+    background-color: rgb(12, 20, 63);
+    color: white;
+    height: 300px;
+}
+
+.footer_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60vw;
+    margin-top: 100px;
+    
+}
+
+footer i{
+    font-size: 1.5rem; 
+}
+
+footer img{
+    height: 40px;
+    width: 200px;
+}
+
+.footer_section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer p{
+    text-align: center;
+    padding: 50px;
+
+}
+
+.social_media{
+    display: flex;
+    gap: 20px;
+}
